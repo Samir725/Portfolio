@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer, HTML, CSS and JS</title>
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nav_bar">
+                <div class="logo">
+                    <div class="logo_image">
+                        
+                    </div>
+                    <p>Samir Panjiyar</p>
+                </div>
+
+                <div class="menuBar" onclick="handleMenu()">
+                    <i class="fa-solid fa-bars" id="toggleBar"></i>
+                </div>
+
+                <div class="nav_content">
+                    <a href="#" id="about">About</a>
+                    <a href="#" id="projects">Projects</a>
+                    <a href="#" id="contact">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="introduction">
+            <div class="content">
+                <h1>Hi, I'm Samir Panjiyar</h1>
+                <p>I'm a web developer passionate about creating simple and effective websites. <br>
+                    I'm currently learning HTML, CSS AND JavaScript to build my skills in web development.
+                </p>
+            </div>
+        </div>
+
+        <div class="projects">
+            <div class="main_projects">
+                <h2 id="my_project">My Projects</h2>
+
+                <div class="content2">
+                    <div class="first">
+                        <div class="project1" id="p1">
+                            <h2>Personal Blog</h2>
+                            <p>A simple blog website built with HTML and CSS. It showcases my journey in learning web development.</p>
+                        </div>
+                    </div>
+    
+                    <div class="second">
+                        <div class="project2" id="p1">
+                            <h2>Weather App</h2>
+                            <p>A basic weather application using JavaScript and a weather API to display current weather conditions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Me</h2>
+
+            <form action="">
+                <div class="form_box">
+                    <div class="name">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+    
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="example@gmail.com">
+                    </div>
+    
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea placeholder="Your message here..."></textarea>
+                    </div>
+    
+                    <div class="submit_btn">
+                        <button type="submit" id="btn">Send Message</button>
+                    </div>
+                </div>
+            </form>
+
+            <footer>
+                <p style="color: rgba(0, 0, 0, 0.4); padding-left: 10px;"><i class="fa-regular fa-copyright"></i> 2024 Samir Panjiyar. All rights reserved</p>
+
+                <div class="social_link">
+                    <div class="email_footer">
+                        <i class="fa-regular fa-envelope"></i> <a href="mailto:sameerpanjiyar725@gmail.com" target="_blank">Email</a>
+                    </div>
+
+                    <div class="github">
+                        <i class="fa-brands fa-github"></i> <a href="https://github.com/Samir725" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
